@@ -11,6 +11,7 @@ public class LogikaKalkulatora {
             case "+" -> liczba1 + liczba2;
             case "-" -> liczba1 - liczba2;
             case "*" -> liczba1 * liczba2;
+            case "/" -> liczba1 / liczba2;
             default -> throw new IllegalArgumentException("Nieznana operacja " + operacja);
         };
     }
